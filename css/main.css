@@ -1,8 +1,33 @@
 body{
-    background-color:pink;
+    background-color:#EBEBEB;
 }
 
 .nav-item{
     position:relative;
-    left:400px;
+    left:200px;
+    
+}
+
+.nav{
+    background-color:#B35736;
+    height:50px;
+}
+
+.nav-link{
+   color:black; 
+   font-family:georgia;
+}
+.jumbotron{
+    background-color:#E0C2A8;
+    position:relative;
+    margin-top:20px;
+}
+.lead{
+    line-height: 60%;
+    font-family:'Courier New', Courier, monospace;
+}
+.type{
+    
+    font-family:'Times New Roman', Times, serif;
+    line-height: 60%;
 }
