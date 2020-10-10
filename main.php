@@ -14,7 +14,7 @@
     <a class="nav-link" href="#">Why give organ</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Become a donor</a>
+    <a class="nav-link" href="donor.php">Become a donor</a>
   </li> 
   </ul>
 
