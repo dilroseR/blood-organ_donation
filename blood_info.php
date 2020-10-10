@@ -41,7 +41,7 @@
 <div class="card" style="width: 18rem;">
   <img src="images/A+.png" class="card-img-A+" alt="A+">
   <div class="card-body">
-    <p class="lists">A positive is the second most common blood type and are always high in demand for patients undergoing chemotherapy.</p>
+    <p class="lists">A positive blood contains type-A antigens with the presence of a protein called the rhesus factor.</p>
     </div>
 </div>
 
@@ -62,7 +62,14 @@
 <div class="card" style="width: 18rem;">
   <img src="images/B-.png" class="card-img-B-" alt="B-">
   <div class="card-body">
-    <p class="lists">B negative red blood cells can be given to both B and AB patients. B negative patients can only receive blood from other B negative donors or from type O negative donors</p>
+    <p class="lists">B negative blood is one of the rarest blood types as just 2% of our blood donors have it.B negative red blood cells can be given to both B and AB patients.</p>
+    </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/AB+.png" class="card-img-AB+" alt="AB+">
+  <div class="card-body">
+    <p class="lists"> AB positive patients are "universal receipients" because they can receive red blood cells from all blood types.This means that demand for AB positive red blood cells is at its lowest level.</p>
     </div>
 </div>
 
@@ -73,12 +80,7 @@
     </div>
 </div>
 
-<div class="card" style="width: 18rem;">
-  <img src="images/AB+.png" class="card-img-AB+" alt="AB+">
-  <div class="card-body">
-    <p class="lists">AB positive blood type is known as the “universal recipient” because AB positive patients can receive red blood cells from all blood types.</p>
-    </div>
-</div>
+
 
 
 
