@@ -9,7 +9,7 @@
     <a class="nav-link active" href="main.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Why give blood</a>
+    <a class="nav-link" href="blood_info.php">Why give blood</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Why give organ</a>
@@ -18,7 +18,7 @@
     <a class="nav-link" href="donor.php">Become a donor</a>
   </li> 
   </ul>
-
+  
   <img class="img1" src="images/OrganDonor.jpg" alt="OrganDonor">
   <h2 class="h2type">5 Reasons to become an Organ Donor</h2>
   <ol>
@@ -33,7 +33,7 @@
     <b><li class="lists">There are no age exclusions to donate.</li></b>
       <p>If you are otherwise healthy, many of your organs could still be viable for an organ donation. The transplant surgeon evaluates the organs and decides whether they are suitable on a case-by-case basis.</p>
   </ol>
-  <a class="h2type" href="">Sign up today to become an Organ Donor</a>
+  <a class="h2type" href="organ-donation_form.php">Sign up today to become an Organ Donor</a>
   <br>
 
   <img class="img2" src="images/BloodDonation.jpg" alt="BloodDonation">
@@ -45,11 +45,12 @@
   <b><li class="lists">Blood cannot be manufactured.</li></b>
   <b><li class="lists">Because I can.</li></b>
   </ol>
-  <a class="h2type" href="">Sign up today to become a Blood Donor</a>
-
+  <a class="h2type" href="blood-donation_form.php">Sign up today to become a Blood Donor</a>
+  
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
+
 </body>
 </html>

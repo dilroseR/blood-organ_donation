@@ -17,21 +17,12 @@ body{
    color:black; 
    font-family:georgia;
 }
-.h2type{
-    position:relative;
-   left:10px;
-}
-.img1{
-    
-    height:50%;
-    width:100%;
+
+.card{
+    float:left;
+    padding:5px;
+    margin:15px;
 }
 .lists{
     font-family:georgia;
-}
-.img2{
-    height:420px;
-    width:900px;
-    position:relative;
-    left:200px;
 }
