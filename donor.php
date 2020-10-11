@@ -33,7 +33,7 @@
     <b><li class="lists">There are no age exclusions to donate.</li></b>
       <p>If you are otherwise healthy, many of your organs could still be viable for an organ donation. The transplant surgeon evaluates the organs and decides whether they are suitable on a case-by-case basis.</p>
   </ol>
-  <a class="h2type" href="organ-donation_form.php">Sign up today to become an Organ Donor</a>
+  <a class="h2type" href="organ-donation_form.php">Register today to become an Organ Donor</a>
   <br>
 
   <img class="img2" src="images/BloodDonation.jpg" alt="BloodDonation">
@@ -45,7 +45,8 @@
   <b><li class="lists">Blood cannot be manufactured.</li></b>
   <b><li class="lists">Because I can.</li></b>
   </ol>
-  <a class="h2type" href="blood-donation_form.php">Sign up today to become a Blood Donor</a>
+  <a class="h2type" href="blood-donation_form.php">Register today to become a Blood Donor</a>
+  
   
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

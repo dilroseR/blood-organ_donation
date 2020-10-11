@@ -1,6 +1,6 @@
 body{
     background-color:#F7F2E6;
-}
+}                          
 
 .nav-item{
     position:relative;
@@ -17,19 +17,6 @@ body{
    color:black; 
    font-family:georgia;
 }
-
-.card{
-    float:left;
-    padding:5px;
-    margin:15px;
-}
 .lists{
     font-family:georgia;
-}
-ul{
-    font-family:georgia;
-}
-.img1{
-    height:120px;
-    width:120px;
 }

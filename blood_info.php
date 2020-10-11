@@ -18,7 +18,14 @@
   </li> 
   </ul>
   <div class="container">
-<h2>Blood Types</h2>
+    <p class="lists">Blood is the most precious gift that anyone can give to another person — the gift of life. A decision to donate your blood can save a life, or even several if your blood is separated into its components — red cells, platelets and plasma — which can be used individually for patients with specific conditions.</p>
+    <p class="lists">Donating blood has benefits for your emotional and physical health. According to a report by the Mental Health Foundation, helping others can:</p>
+    <ul class="lists">
+      <li>reduce stress</li>
+      <li>improve your emotional well-being</li>
+      <li>provide a sense of belonging and reduce isolation</li>
+    </ul>
+  <h2>Blood Types</h2>
 <br>
 <p><b>There are 4 main types of blood – A, B, AB and O. Your blood group is determined by the genes you inherit from your parents.</b></p>
 <p class="lists">Each group can be either RhD positive or RhD negative, which means in total there are 8 blood groups.</p>
@@ -79,10 +86,81 @@
     <p class="lists">AB negative is the rarest blood type in the ABO blood group, accounting for just 1% of our blood donors. In total only 3% of donors belong to the AB blood group.</p>
     </div>
 </div>
+<br>
+<!--#EBEBEB -->
+<br>
+<br>
+  <table class="table table-striped">
+  <thead class="thead-dark"> 
+  <tr>
+  <th colspan=3>Compatible Blood Type Donors</th>
+  </tr></thead>
+  <thead class="thead-dark"> 
+    <tr>
+     <th scope="col">Blood Type</th>
+      <th scope="col">Donate Blood To</th>
+      <th scope="col">Receive Blood From</th>
+    </tr></thead>
+ 
+  <tbody>
+    <tr>
+      
+      <td>A+</td>
+      <td>A+ AB+</td>
+      <td>A+ A- O+ O-</td>
+    </tr>
+    <tr>
+      
+      <td>O+</td>
+      <td>O+ A+ B+ AB+</td>
+      <td>O+ O-</td>
+    </tr>
+    <tr>
+     
+      <td>B+</td>
+      <td>B+ AB+</td>
+      <td>B+ B- O+ O-</td>
+    </tr>
 
+    <tr>
+     
+      <td>AB+</td>
+      <td>AB+</td>
+      <td>Everyone</td>
+    </tr>
 
+    <tr>
+     
+      <td>A-</td>
+      <td>A+ A- AB+ AB-</td>
+      <td>A- O-</td>
+    </tr>
 
+    <tr>
+     
+      <td>O-</td>
+      <td>Everyone</td>
+      <td>O-</td>
+    </tr>
 
+    <tr>
+     
+      <td>B-</td>
+      <td>B+ B- AB+ AB-</td>
+      <td>B- O-</td>
+    </tr>
+
+    <tr>
+     
+      <td>AB-</td>
+      <td>AB+ AB-</td>
+      <td>AB- A- B- O-</td>
+    </tr>
+</tbody>
+</table>
+<br>
+<p class="lists">In need of blood? <a href="patient-blood_form.php">Click here</a></p>
+<img class="img1" src="images/needofblood.png" alt="needofblood">
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,6 +1,6 @@
-<html><head><title>    </title>
+<html><head><title>Donate Organ</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/registration.css">
 </head>
 <body>
 <ul class="nav">
@@ -19,18 +19,13 @@
   </ul>
 
 <!-- Jennifer content yaha daalde  (organ donation form)-->
-  <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="css/registration.css">
+  
         <link rel="icon" href="images/organ.png" type="image/icon type">
-        <title> Donate Organ </title>
-    </head>
-
-    <body>
+       
+    
     <div class="container">
     <form action="">
-        <h1>Sign Up Today!<br>Save A Life After Life</h1>
+        <h1>Register Today!<br>Save A Life After Life</h1>
         <hr> 
         <div class="row">
             <div class="col-25">
@@ -155,9 +150,7 @@
     </div> 
     <p> Already have an account? <a href="#">Sign In</a></p>
        
-    
-    </body>
-</html>
+ 
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
