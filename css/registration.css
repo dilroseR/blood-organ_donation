@@ -85,7 +85,7 @@ label{
     margin-top: auto;
 }
 
- p{
+/* p{
     font: Georgia, "Times New Roman", Times, serif;
     font-size: 130%;
     font-weight: 250;
@@ -94,7 +94,7 @@ label{
     text-align: center;
     margin-top: 10px;
     
-}
+} */
 
 a{
     color: dodgerblue;
