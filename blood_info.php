@@ -11,7 +11,7 @@
     <a class="nav-link" href="blood_info.php">Why give blood</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Why give organ</a>
+    <a class="nav-link" href="organ_info.php">Why give organ</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="donor.php">Become a donor</a>
@@ -106,20 +106,20 @@
     <tr>
       
       <td>A+</td>
-      <td>A+ AB+</td>
-      <td>A+ A- O+ O-</td>
+      <td>A+, AB+</td>
+      <td>A+, A-, O+, O-</td>
     </tr>
     <tr>
       
       <td>O+</td>
-      <td>O+ A+ B+ AB+</td>
-      <td>O+ O-</td>
+      <td>O+, A+, B+, AB+</td>
+      <td>O+, O-</td>
     </tr>
     <tr>
      
       <td>B+</td>
-      <td>B+ AB+</td>
-      <td>B+ B- O+ O-</td>
+      <td>B+, AB+</td>
+      <td>B+, B-, O+, O-</td>
     </tr>
 
     <tr>
@@ -132,8 +132,8 @@
     <tr>
      
       <td>A-</td>
-      <td>A+ A- AB+ AB-</td>
-      <td>A- O-</td>
+      <td>A+, A-, AB+, AB-</td>
+      <td>A-, O-</td>
     </tr>
 
     <tr>
@@ -146,20 +146,20 @@
     <tr>
      
       <td>B-</td>
-      <td>B+ B- AB+ AB-</td>
-      <td>B- O-</td>
+      <td>B+, B-, AB+, AB-</td>
+      <td>B-, O-</td>
     </tr>
 
     <tr>
      
       <td>AB-</td>
-      <td>AB+ AB-</td>
-      <td>AB- A- B- O-</td>
+      <td>AB+, AB-</td>
+      <td>AB-, A-, B-, O-</td>
     </tr>
 </tbody>
 </table>
 <br>
-<p class="lists">In need of blood? <a href="patient-blood_form.php">Click here</a></p>
+<p class="lists">In need of blood? <a href="patient-blood_form.php"><strong>Click here</strong></a></p>
 <img class="img1" src="images/needofblood.png" alt="needofblood">
 
 

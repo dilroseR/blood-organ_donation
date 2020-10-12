@@ -1,10 +1,9 @@
-<html>
-    <head><title>  </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/patient-blood_form.css">
+<html><head><title>    </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="css/patient-blood_form.css">
 </head>
-    <body>
-    <ul class="nav">
+<body>
+<ul class="nav">
   <li class="nav-item">
     <a class="nav-link active" href="main.php">Home</a>
   </li>
@@ -18,11 +17,13 @@
     <a class="nav-link" href="donor.php">Become a donor</a>
   </li> 
   </ul>
-   
-<div class="container">
-<h3>Fill up the form and we will contact you soon!</h3>
-<br>
-<form>
+
+  <div class="container">
+  <h3>Fill up the form and we will contact you soon!</h3>
+  <br>
+
+
+  <form>
   <div class="form-row">
     <div class="col-md-6 mb-3">
       <label for="validationDefault01" class="lists">First name</label>
@@ -77,9 +78,8 @@
       <label for="validationDefault01" class="lists">City</label>
       <input type="text" class="form-control" id="validationDefault01" name="city" required>
     </div>
-
-</div>
-<button type="button" class="btn btn-danger">Submit</button>
+    </div>
+<button type="button" class="btn btn-danger">Submit</button></form>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -87,4 +87,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
 </div>
 </body>
-  </html>
+</html>

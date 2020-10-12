@@ -12,7 +12,7 @@
     <a class="nav-link" href="blood_info.php">Why give blood</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Why give organ</a>
+    <a class="nav-link" href="organ_info.php">Why give organ</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="donor.php">Become a donor</a>
@@ -33,7 +33,7 @@
     <b><li class="lists">There are no age exclusions to donate.</li></b>
       <p>If you are otherwise healthy, many of your organs could still be viable for an organ donation. The transplant surgeon evaluates the organs and decides whether they are suitable on a case-by-case basis.</p>
   </ol>
-  <a class="h2type" href="organ-donation_form.php">Register today to become an Organ Donor</a>
+  <a class="h2type" href="organ-donation_form.php"><strong>Register today to become an Organ Donor</strong></a>
   <br>
 
   <img class="img2" src="images/BloodDonation.jpg" alt="BloodDonation">
@@ -45,7 +45,7 @@
   <b><li class="lists">Blood cannot be manufactured.</li></b>
   <b><li class="lists">Because I can.</li></b>
   </ol>
-  <a class="h2type" href="blood-donation_form.php">Register today to become a Blood Donor</a>
+  <a class="h2type" href="blood-donation_form.php"><strong>Register today to become a Blood Donor</strong></a>
   
   
 

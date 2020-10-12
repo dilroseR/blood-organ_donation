@@ -11,7 +11,7 @@
     <a class="nav-link" href="blood_info.php">Why give blood</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Why give organ</a>
+    <a class="nav-link" href="organ_info.php">Why give organ</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="donor.php">Become a donor</a>
