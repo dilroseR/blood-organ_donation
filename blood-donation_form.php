@@ -39,30 +39,6 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="username"><b>Choose your username</b></label>
-            </div>
-            <div class="col-75">
-                <input type="text" name="domain"  required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="password"><b>Create a password</b></label>
-            </div>
-            <div class="col-75">
-                <input type="text" placeholder="" name="password" required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="repwd"><b>Confirm password</b></label>
-            </div>
-            <div class="col-75">
-                <input type="text" placeholder="" name="repwd" required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
                 <label for="age"><b>Age</b></label>
             </div>
             <div class="col-75">
@@ -128,6 +104,14 @@
                 <input type="text" placeholder="Pincode" name="pincode" required>
             </div>
         </div>
+      <div class="row">
+            <div class="col-25">
+                <label for="repwd"><b>Phone No.</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" placeholder="" name="phone" required>
+            </div>
+        </div>
         <div class="row">
             <div class="col-25">
                 <label for="gender"><b> Gender</b></label><br/>
@@ -147,9 +131,7 @@
         </div>
     </form>
     </div> 
-    <p> Already have an account? <a href="#">Sign In</a></p>
     
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
