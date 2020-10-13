@@ -126,6 +126,33 @@
                 </select>
             </div>
         </div>
+      <div class="row">
+            <div class="col-25">
+                <label for="date"><b>Date</b></label><br/>
+            </div>
+            <div class="col-25">
+                <select id="month" name="month">
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+            </div>
+            <div class="col-25">
+                <input type="text" placeholder="day" name="day" required>
+            </div>
+            <div class="col-25">
+                <input type="text" placeholder="year" name="year" required>
+            </div>
+        </div>
         <div class="row" align="right">
             <button type="submit" class="registerbtn"><strong>Register</strong></button>
             <button type="cancel" class="cancelbtn"><strong>Cancel</strong></button>
