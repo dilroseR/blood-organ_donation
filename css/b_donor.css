@@ -35,3 +35,7 @@ body{
     position:relative;
     left:200px;
 }
+.btn-danger{
+    color:black;
+    font-family:georgia;
+}

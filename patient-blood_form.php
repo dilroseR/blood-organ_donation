@@ -47,11 +47,11 @@
   <div class="form-row">
     <div class="col-md-6 mb-3">
       <label for="validationDefault01" class="lists">Weight</label>
-      <input type="text" class="form-control" id="validationDefault01" name="weight" required>
+      <input type="text" class="form-control" id="validationDefault01" placeholder="in kgs" name="weight" required>
     </div>
     <div class="col-md-6 mb-3">
       <label for="validationDefault02" class="lists">Height</label>
-      <input type="text" class="form-control" id="validationDefault02" name="height" required>
+      <input type="text" class="form-control" id="validationDefault02" placeholder="in cms" name="height" required>
     </div>
   </div>
 
@@ -60,12 +60,16 @@
       <label for="validationDefault01" class="lists">Age</label>
       <input type="text" class="form-control" id="validationDefault01" name="age" required>
     </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault01" class="lists">Phone no.</label>
+      <input type="text" class="form-control" id="validationDefault01" name="pno" required>
+    </div>
 </div>
 
 <div class="form-row">
     <div class="col-md-6 mb-3">
       <label for="validationDefault01" class="lists">Blood Group</label>
-      <input type="text" class="form-control" id="validationDefault01" name="bloodgrp" required>
+      <input type="text" class="form-control" id="validationDefault01" placeholder="Eg: A+" name="bloodgrp" required>
     </div>
 </div>
 
@@ -87,6 +91,9 @@
       <label for="validationDefault01" class="lists">City</label>
       <input type="text" class="form-control" id="validationDefault01" name="city" required>
     </div>
+
+    
+    
 
 </div>
 <button type="button" class="btn btn-danger">Submit</button>

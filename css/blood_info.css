@@ -33,3 +33,8 @@ ul{
     height:120px;
     width:120px;
 }
+
+.btn-danger{
+    color:black;
+    font-family:georgia;
+}
