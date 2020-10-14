@@ -1,8 +1,9 @@
-<html><head><title>    </title>
+<html><head><title>Become a donor</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/b_donor.css">
 </head>
 <body>
+   
 <ul class="nav">
   <li class="nav-item">
     <a class="nav-link active" href="main.php">Home</a>
@@ -25,24 +26,25 @@
   
   </div>
 </div>
-  </li> 
+   </li> 
   </ul>
 
-  <div class="jumbotron">
-  <h1 class="display-4">Be a Hero!</h1><br>
-  <p class="lead">You're</p>
-  <p class="lead">Somebody's</p>
-  <p class="lead">Type</p>
-  <hr class="my-4">
-  <p class="type"><b>DONATE BLOOD, DONATE ORGANS!</b></p>
-  <p class="type"><b> SAVE LIVES!</b></p>
-</div>
-
-
-
+  <img class="img2" src="images/BloodDonation.jpg" alt="BloodDonation">
+  <h2 class="h2type">5 Reasons to become a Blood Donor</h2>
+  <ol>
+  <b><li class="lists">It saves lives</li></b>
+  <b><li class="lists">It is not more painful than losing a loved one that you may save by donating!</li></b>
+  <b><li class="lists">Because some day, I may need someone to do the same for me.</li></b>
+  <b><li class="lists">Blood cannot be manufactured.</li></b>
+  <b><li class="lists">Because I can.</li></b>
+  </ol>
+  <a class="h2type" href="blood-donation_form.php"><strong>Register today to become a Blood Donor</strong></a>
+  
+  
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
+
 </body>
 </html>

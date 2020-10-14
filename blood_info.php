@@ -8,17 +8,27 @@
     <a class="nav-link active" href="main.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="blood_info.php">Why give blood</a>
+    <a class="nav-link" href="blood_info.php">In need of blood?</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="organ_info.php">Why give organ</a>
+    <a class="nav-link" href="organ_info.php">In need of organs?</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="donor.php">Become a donor</a>
+  <div class="dropdown">
+  <a class="btn btn-danger dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Become a donor
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="b_donor.php">Blood Donor</a>
+    <a class="dropdown-item" href="o_donor.php">Organ Donor</a>
+  
+  </div>
+</div>
   </li> 
   </ul>
   <div class="container">
-    <p class="lists">Blood is the most precious gift that anyone can give to another person — the gift of life. A decision to donate your blood can save a life, or even several if your blood is separated into its components — red cells, platelets and plasma — which can be used individually for patients with specific conditions.</p>
+    <p class="lists"><b>Blood is the most precious gift that anyone can give to another person — the gift of life.</b> A decision to donate your blood can save a life, or even several if your blood is separated into its components — red cells, platelets and plasma — which can be used individually for patients with specific conditions.</p>
     <p class="lists">Donating blood has benefits for your emotional and physical health. According to a report by the Mental Health Foundation, helping others can:</p>
     <ul class="lists">
       <li>reduce stress</li>
@@ -87,7 +97,7 @@
     </div>
 </div>
 <br>
-<!--#EBEBEB -->
+
 <br>
 <br>
   <table class="table table-striped">

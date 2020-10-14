@@ -8,13 +8,23 @@
     <a class="nav-link active" href="main.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="blood_info.php">Why give blood</a>
+    <a class="nav-link" href="blood_info.php">In need of blood?</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="organ_info.php">Why give organ</a>
+    <a class="nav-link" href="organ_info.php">In need of organs?</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="donor.php">Become a donor</a>
+  <div class="dropdown">
+  <a class="btn btn-danger dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Become a donor
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="b_donor.php">Blood Donor</a>
+    <a class="dropdown-item" href="o_donor.php">Organ Donor</a>
+  
+  </div>
+</div>
   </li> 
   </ul>
 
@@ -56,6 +66,10 @@
 <div class="form-row">
     <div class="col-md-6 mb-3">
       <label for="validationDefault01" class="lists">Blood Group</label>
+      <input type="text" class="form-control" id="validationDefault01" name="bloodgrp" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault01" class="lists">In need of which organ</label>
       <input type="text" class="form-control" id="validationDefault01" name="bloodgrp" required>
     </div>
 </div>
