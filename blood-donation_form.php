@@ -63,6 +63,14 @@
                 <input type="text" placeholder="in kgs" name="weight" required>
             </div>
         </div>
+      <div class="row">
+            <div class="col-25">
+                <label for="height"><b>Height</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" placeholder="in cms" name="height" required>
+            </div>
+        </div>
         <div class="row">
             <div class="col-25">
                 <label for="bloodgroup"><b>Blood Group</b></label>
