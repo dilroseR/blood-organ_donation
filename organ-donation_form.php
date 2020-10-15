@@ -39,7 +39,7 @@
         <hr> 
         <div class="row">
             <div class="col-25">
-                <label for="email"><b>Name</b></label>
+                <label for="name"><b>Name</b></label>
             </div>
             <div class="col-25">
                 <input type="text" placeholder="First" name="fname" required>
@@ -62,6 +62,14 @@
             </div>
             <div class="col-75">
                 <input type="text" placeholder="in kgs" name="weight" required>
+            </div>
+        </div>
+      <div class="row">
+            <div class="col-25">
+                <label for="height"><b>Height</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" placeholder="in cms" name="height" required>
             </div>
         </div>
         <div class="row">
