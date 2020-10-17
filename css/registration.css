@@ -49,6 +49,7 @@ label{
     width: 25%;
     margin-top: 6px;
     margin-bottom: 8px;
+    padding-right: 10px;
 }
 
 .col-75{
@@ -65,11 +66,17 @@ label{
     clear: both;
 }
 
+label.date{
+    display: inline-block;
+    
+}
 /* Responsive layout- when the screen < 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .col-25, .col-75, .col-35{
         width: 100%;
+        height: 80%;
         margin-top: 0;
+        padding-right: 10px;
     }
 }
 
@@ -148,24 +155,3 @@ b{
     display: table;
   }
   
-  
-
-.nav-item{
-    position:relative;
-    left:200px;
-    
-}
-
-.nav{
-    background-color:#DB1F2A;
-    height:50px;
-}
-
-.nav-link{
-   color:black; 
-   font-family:georgia;
-}
-.btn-danger{
-    color:black;
-    font-family:georgia;
-}
