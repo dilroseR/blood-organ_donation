@@ -26,7 +26,9 @@
   </div>
 </div>
   </li> 
+ 
   </ul>
+
   <div class="container">
     <p class="lists"><b>Blood is the most precious gift that anyone can give to another person — the gift of life.</b> A decision to donate your blood can save a life, or even several if your blood is separated into its components — red cells, platelets and plasma — which can be used individually for patients with specific conditions.</p>
     <p class="lists">Donating blood has benefits for your emotional and physical health. According to a report by the Mental Health Foundation, helping others can:</p>

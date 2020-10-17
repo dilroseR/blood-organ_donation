@@ -27,6 +27,10 @@
 </div>
   </li> 
   </ul>
+  
+
+  <!--  left:1250px; top:-43px; background-color:white; 
+   font-family:georgia; " -->
 
   <div class="jumbotron">
   <h1 class="display-4">Be a Hero!</h1><br>
