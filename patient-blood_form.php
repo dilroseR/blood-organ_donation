@@ -90,12 +90,15 @@
     <div class="col-md-6 mb-3">
       <label for="validationDefault01" class="lists">City</label>
       <input type="text" class="form-control" id="validationDefault01" name="city" required>
-    </div>
-
-    
-    
-
+    </div>  
 </div>
+<div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault01" class="lists">Date</label>
+      <input type="text" class="form-control" id="validationDefault01" placeholder="DD/MM/YYYY" name="date" required>
+    </div>
+  </div>
+<br>
 <button type="button" class="btn btn-danger">Submit</button>
 
 

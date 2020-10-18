@@ -1,3 +1,8 @@
+<?php
+include ("connection.php");
+echo '<br>';
+?>
+
 <html><head><title>Donate Organ</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="css/registration.css">
@@ -34,7 +39,7 @@
        
     
     <div class="container">
-    <form action="">
+    <form action="" method="POST">
         <h1>Register Today!<br>Save A Life After Life</h1>
         <hr> 
         <div class="row">
@@ -148,7 +153,7 @@
             <div class="col-25">
                 <label for="date"><b>Date</b></label><br/>
             </div>
-            <div class="col-25">
+           <!-- <div class="col-25">
                 <select id="month" name="month">
                     <option>January</option>
                     <option>February</option>
@@ -163,20 +168,59 @@
                     <option>November</option>
                     <option>December</option>
                 </select>
-            </div>
+            </div> -->
+            
             <div class="col-25">
-                <input type="text" placeholder="day" name="day" required>
-            </div>
-            <div class="col-25">
-                <input type="text" placeholder="year" name="year" required>
+                <input type="text" placeholder="DD/MM/YYYY" name="date" required>
             </div>
         </div>
         <div class="row" align="right">
-            <button type="submit" class="registerbtn"><strong>Register</strong></button>
+       <!-- <input type="submit" name="submit" value="Submit">-->
+            <button type="submit" class="registerbtn"><strong>Register</strong></button> 
             <button type="cancel" class="cancelbtn"><strong>Cancel</strong></button>
         </div>
     </form>
-    </div>
+    
+
+    <?php
+//include("connection.php");
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+$fname=$_POST['fname'];
+$lname=$_POST['lname'];
+$age=$_POST['age'];
+$weight=$_POST['weight'];
+$height=$_POST['height'];
+$bloodgrp=$_POST['bloodgroup'];
+$state=$_POST['state'];
+$town=$_POST['town'];
+$pincode=$_POST['pincode'];
+$phone=$_POST['phone'];
+$genderSelect=$_POST['genderSelect'];
+$date=$_POST['date'];
+
+
+// && $lname!="" && $age!="" && $weight!="" && $height="" && $bloodgrp!=""
+//&& $state!="" && $town!="" && $pincode!="" && $phone!="" && $genderSelect!="" 
+//&& $month!="" && $day!="" && $year!=""
+//echo 'hello';
+
+$query="INSERT INTO organ_donor values('$fname','$lname','$age','$weight','$height','$bloodgrp',
+'$state','$town','$pincode','$phone','$genderSelect','$date')";
+$data=mysqli_query($conn,$query);
+if($data)
+    {
+        echo 'data inserted <br>';
+    }
+
+else
+    echo 'insert all data';
+//echo $fname .'<br>';
+//echo $lname .'<br>';
+//echo $age .'<br>';
+}
+
+?>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

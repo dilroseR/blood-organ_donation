@@ -147,7 +147,7 @@
             <div class="col-25">
                 <label for="date"><b>Date</b></label><br/>
             </div>
-            <div class="col-25">
+    <!--        <div class="col-25">
                 <select id="month" name="month">
                     <option>January</option>
                     <option>February</option>
@@ -162,12 +162,9 @@
                     <option>November</option>
                     <option>December</option>
                 </select>
-            </div>
+            </div> -->
             <div class="col-25">
-                <input type="text" placeholder="day" name="day" required>
-            </div>
-            <div class="col-25">
-                <input type="text" placeholder="year" name="year" required>
+                <input type="text" placeholder="DD/MM/YYYY" name="date" required>
             </div>
         </div>
         <div class="row" align="right">

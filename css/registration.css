@@ -1,3 +1,21 @@
+.nav-item{
+    position:relative;
+    left:200px;
+    
+}
+
+.nav{
+    background-color:#DB1F2A;
+    height:50px;
+}
+
+.nav-link{
+   color:black; 
+   font-family:georgia;
+  
+}
+
+
 *{
     box-sizing: border-box;
 }
