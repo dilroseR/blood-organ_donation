@@ -151,7 +151,7 @@ echo '<br>';
         </div>
       <div class="row">
             <div class="col-25">
-                <label for="date"><b>Date</b></label><br/>
+                <label for="date"><b>Registration Date</b></label><br/>
             </div>
            <!-- <div class="col-25">
                 <select id="month" name="month">
