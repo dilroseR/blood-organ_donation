@@ -171,7 +171,7 @@ echo '<br>';
             </div> -->
             
             <div class="col-25">
-                <input type="text" placeholder="DD/MM/YYYY" name="date" required>
+                <input type="text" placeholder="YYYY-MM-DD" name="date" required>
             </div>
         </div>
         <div class="row" align="right">
