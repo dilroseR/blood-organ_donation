@@ -79,7 +79,7 @@ echo '<br>';
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="bloodgroup"><b>Blood Group/Select the Organ to be pledged</b></label>
+                <label for="bloodgroup"><b>Blood Group / Organ to be pledged</b></label>
             </div>
             <div class="col-25">
                 <input type="text" placeholder="A+" name="bloodgroup" required>
