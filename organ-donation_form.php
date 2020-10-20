@@ -44,7 +44,7 @@ echo '<br>';
         <hr> 
         <div class="row">
             <div class="col-25">
-                <label for="name"><b>Name</b></label>
+                <label for="email"><b>Name</b></label>
             </div>
             <div class="col-25">
                 <input type="text" placeholder="First" name="fname" required>
@@ -52,7 +52,7 @@ echo '<br>';
             <div class="col-25">
                 <input type="text" placeholder="Last" name="lname" required>
             </div>
-      </div>
+        </div>
         <div class="row">
             <div class="col-25">
                 <label for="age"><b>Age</b></label>
@@ -69,7 +69,7 @@ echo '<br>';
                 <input type="text" placeholder="in kgs" name="weight" required>
             </div>
         </div>
-      <div class="row">
+        <div class="row">
             <div class="col-25">
                 <label for="height"><b>Height</b></label>
             </div>
@@ -79,12 +79,21 @@ echo '<br>';
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="bloodgroup"><b>Blood Group</b></label>
+                <label for="bloodgroup"><b>Blood Group / Organ to be pledged</b></label>
             </div>
-            <div class="col-75">
+            <div class="col-25">
                 <input type="text" placeholder="A+" name="bloodgroup" required>
             </div>
-        </div>
+            <div class="col-25">
+                <select id="organdonate" name="organdonate">
+                    <option>Kidneys</option>
+                    <option>Liver</option>
+                    <option>Heart</option>
+                    <option>Pancreas</option>
+                    <option>Intestines</option>
+                </select>
+            </div>
+            </div>
         <div class="row">
             <div class="col-25">
                 <label for="repwd"><b>Address</b></label><br/>
@@ -128,7 +137,7 @@ echo '<br>';
                 <input type="text" placeholder="Pincode" name="pincode" required>
             </div>
         </div>
-      <div class="row">
+        <div class="row">
             <div class="col-25">
                 <label for="repwd"><b>Phone No.</b></label>
             </div>
@@ -149,34 +158,17 @@ echo '<br>';
                 </select>
             </div>
         </div>
-      <div class="row">
+
+        <div class="row">
             <div class="col-25">
                 <label for="date"><b>Registration Date</b></label><br/>
             </div>
-           <!-- <div class="col-25">
-                <select id="month" name="month">
-                    <option>January</option>
-                    <option>February</option>
-                    <option>March</option>
-                    <option>April</option>
-                    <option>May</option>
-                    <option>June</option>
-                    <option>July</option>
-                    <option>August</option>
-                    <option>September</option>
-                    <option>October</option>
-                    <option>November</option>
-                    <option>December</option>
-                </select>
-            </div> -->
-            
-            <div class="col-25">
+            <div class="col-75">
                 <input type="text" placeholder="YYYY-MM-DD" name="date" required>
             </div>
         </div>
         <div class="row" align="right">
-       <!-- <input type="submit" name="submit" value="Submit">-->
-            <button type="submit" class="registerbtn"><strong>Register</strong></button> 
+            <button type="submit" class="registerbtn"><strong>Register</strong></button>
             <button type="cancel" class="cancelbtn"><strong>Cancel</strong></button>
         </div>
     </form>
@@ -191,6 +183,7 @@ $age=$_POST['age'];
 $weight=$_POST['weight'];
 $height=$_POST['height'];
 $bloodgrp=$_POST['bloodgroup'];
+$organdonate=$_POST['organdonate'];
 $state=$_POST['state'];
 $town=$_POST['town'];
 $pincode=$_POST['pincode'];
@@ -204,7 +197,7 @@ $date=$_POST['date'];
 //&& $month!="" && $day!="" && $year!=""
 //echo 'hello';
 
-$query="INSERT INTO organ_donor values('$fname','$lname','$age','$weight','$height','$bloodgrp',
+$query="INSERT INTO organ_donor values('$fname','$lname','$age','$weight','$height','$bloodgrp','$organdonate',
 '$state','$town','$pincode','$phone','$genderSelect','$date')";
 $data=mysqli_query($conn,$query);
 if($data)
