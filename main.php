@@ -26,8 +26,12 @@
   </div>
 </div>
   </li> 
+
+ <!--  <ul class="nav justify-content-end">  -->
+  <li class="alink">
+    <a class="alink" href="#">Link</a>
+  </li>
   </ul>
-  <br>
   
   <!--  left:1250px; top:-43px; background-color:white; 
    font-family:georgia; " -->

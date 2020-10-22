@@ -38,3 +38,19 @@ body{
     font-family:georgia;
 }
 
+.btn-dark{
+    color:white;
+    position: relative;
+    left:50%;
+}
+
+
+.justify-content-end{
+position: relative;
+right:30px;
+}
+
+.alink{
+    position: relative;
+    top:10px;
+}
