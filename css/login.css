@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to bottom right,#D9CEF5, #475666);
+    
+}
+
+
+.form-control{
+    height:35px;
+    
+    }
+    
+    .input-group{
+    width:500px;
+    position:relative;
+    left:50px;
+    padding-top:10px;
+    }
+    
+    .btn-default{
+    position:relative;
+    left:271px;
+    }
+    
+    
+    
+    .div2{
+    background-color:#79728C;
+    position:relative;
+    left:380px;
+    width:600px;
+    height:500px;
+    margin-top:30px;
+    padding-top:5px;
+    }
+
+    
+    
+   

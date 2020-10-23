@@ -27,12 +27,15 @@
 </div>
   </li> 
 
- <!--  <ul class="nav justify-content-end">  -->
-  <li class="alink">
-    <a class="alink" href="#">Link</a>
-  </li>
+ <!--    -->
   </ul>
   
+  <nav class="navbar navbar-light" style="background-color: #EDB48E;">
+    <ul style="list-style-type:none;">
+  <li class="nav-item1">
+    <a class="nav-link1" href="login.php">LOGIN</a>
+  </li></ul>
+</nav>
   <!--  left:1250px; top:-43px; background-color:white; 
    font-family:georgia; " -->
 
@@ -45,6 +48,7 @@
   <p class="type"><b>DONATE BLOOD, DONATE ORGANS!</b></p>
   <p class="type"><b> SAVE LIVES!</b></p>
 </div>
+</div>
 
 
 
@@ -54,3 +58,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
 </body>
 </html>
+<!-- background-color:#E0C2A8; -->

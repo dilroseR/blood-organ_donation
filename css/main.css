@@ -19,7 +19,7 @@ body{
   
 }
 .jumbotron{
-    background-color:#E0C2A8;
+    background:url('images/help.jpg') top;
     position:relative;
     margin-top:20px;
 }
@@ -50,7 +50,14 @@ position: relative;
 right:30px;
 }
 
-.alink{
+
+.nav-item1{
     position: relative;
-    top:10px;
+    left:1200px;
+    font-family:georgia;
+   
+}
+.nav-link1{
+    font-family:georgia;
+    color:black;
 }
