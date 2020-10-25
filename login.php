@@ -17,10 +17,10 @@ include ("connection.php");
 
     <h1 style="text-align:center"><b>Login</b></h1>
 	<br>
-    <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
+    <form method="POST" action="admin.php">
         <div class="input-group">
             <span class="input-group-addon">Username</span>
-		<input id="username" type="text" class="form-control" name="uname" placeholder="Username">
+		<input id="username" type="text" class="form-control" name="username" placeholder="Username">
         </div>
        
 	  <br>
@@ -30,26 +30,13 @@ include ("connection.php");
         </div>
         
         <br>
-        <button type="submit" class="btn btn-default">Login</button>
+        <button type="submit" class="btn btn-default" value="LOGIN">Login</button>
     </form>
 	 <br>
 	</div>
 
 
-    <?php 
-if($_SERVER['REQUEST_METHOD'] == 'POST'){
-
-$u=$_POST['uname'];
-$p=$_POST['password'];
-
-if($u==$username && $p==$password){
     
-}
-
-}
-
-?>
-
 
 
 
