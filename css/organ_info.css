@@ -21,3 +21,95 @@ body{
     color:black;
     font-family:georgia;
 }
+
+strong{
+    color:#dc3545;
+}
+
+.card{
+    float:left;
+    padding:3px;
+    margin:15px;
+}
+
+.lists{
+    font-family:georgia;
+}
+
+ul{
+    font-family:georgia;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+div{
+    display: block;
+    margin: auto;
+}
+
+.
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 5px;
+    padding: 1.25rem;
+} 
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.card-img-kidney{
+    height:200px;
+    width:280px;
+}
+
+.card-img-heart{
+    height:220px;
+    width:280px;
+}
+
+.card-img-liver{
+    height:150px;
+    width:280px;
+}
+
+.card-img-pancreas{
+    height:200px;
+    width:280px;
+}
+
+.card-img-intestine{
+    height:150px;
+    width:280px;
+}
+p.lists {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
