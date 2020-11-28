@@ -2,6 +2,8 @@
 include ("connection.php");
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +19,7 @@ include ("connection.php");
 
     <h1 style="text-align:center"><b>Login</b></h1>
 	<br>
-    <form method="POST" action="admin.php">
+    <form method="POST" action="login1.php">
         <div class="input-group">
             <span class="input-group-addon">Username</span>
 		<input id="username" type="text" class="form-control" name="username" placeholder="Username">
@@ -35,7 +37,7 @@ include ("connection.php");
 	 <br>
 	</div>
 
-
+    
     
 
 

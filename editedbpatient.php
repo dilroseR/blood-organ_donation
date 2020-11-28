@@ -2,35 +2,6 @@
 include ("connection.php");
 ?>
 
-<?php
-/*
-// get values passed from login.php
-// LOGIN SUCCESS!! Welcome".$row['uname']; 
-
-$username = $_POST['username'];
-$password = $_POST['password'];
-
-$username = stripcslashes($username);
-$password = stripcslashes($password);
-//$username = mysql_real_escape_string($username);
-//$password = mysql_real_escape_string($password);
-
-$conn=mysqli_connect("localhost","root","","savelife");
-//mysql_select_db("savelife");
-
-$query=( "SELECT uname, pword FROM users WHERE uname='$username' AND pword='$password' ")
-               or die("Failed to query db");
-  $result=mysqli_query($conn,$query);
-               $row = mysqli_fetch_array($result);
- # if ($row['uname'] == $username && $row['pword'] == $password)
- # {  header("Location:admin.php"); 
-#}
-  #else
-  #{echo "FAILED...TRY AGAIN!!!!";}     
-*/
-?>
-
-
 
 <html>
 <head>
@@ -47,12 +18,9 @@ $(document).ready(function(){
 
 </head>
 <body>
-
-
-
 <nav class="navbar navbar-light" style="background-color:#DB1F2A;">
   <p class="navbar-brand">SIMPLE BLOOD & ORGAN DONOR MANAGEMENT SYSTEM</p>
-  <a href="admin.php" style="color:black;"><b><i>Hello admin!</i></b></a>
+  
 </nav>
 
 <div id="mySidenav" class="sidenav">
@@ -160,6 +128,28 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+
+<?php
+$fullname = $_POST["fullname"];   
+$weight = $_POST["weight"];
+$height = $_POST["height"]; 
+$bloodgrp = $_POST["bloodgrp"];
+$state = $_POST["state"];
+$city = $_POST["city"];
+
+$pno = $_POST["pno"];
+$gender = $_POST["gender"];
+$id=$_POST['id'];
+//update query
+$qry = "update blood_patient set fullname='$fullname', weight='$weight', height='$height',bloodgrp='$bloodgrp',state='$state',city='$city',pno='$pno', gender='$gender'  where id='$id'";
+$result = mysqli_query($conn,$qry); //query executes
+if(!$result){
+    echo"ERROR". mysqli_error();
+}else {
+    echo"<h1>SUCCESSFULLY UPDATED<h1>";
+    // header ("Location:editdonor.php");
+}
+?>
    
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -170,8 +160,3 @@ function closeNav() {
 </script>
 </body>
 </html>
-
-<!-- <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a> -->

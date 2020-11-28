@@ -1,6 +1,5 @@
 <?php
 include ("connection.php");
-echo '<br>';
 ?>
 
 <html><head><title>    </title>
@@ -10,13 +9,13 @@ echo '<br>';
 <body>
 <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active" href="main.php">Home</a>
+    <a class="nav-link active" href="main.html">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="blood_info.php">In need of blood?</a>
+    <a class="nav-link" href="blood_info.html">In need of blood?</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="organ_info.php">In need of organs?</a>
+    <a class="nav-link" href="organ_info.html">In need of organs?</a>
   </li>
   <li class="nav-item">
   <div class="dropdown">
@@ -25,8 +24,8 @@ echo '<br>';
   </a>
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="b_donor.php">Blood Donor</a>
-    <a class="dropdown-item" href="o_donor.php">Organ Donor</a>
+    <a class="dropdown-item" href="b_donor.html">Blood Donor</a>
+    <a class="dropdown-item" href="o_donor.html">Organ Donor</a>
   
   </div>
 </div>
@@ -41,12 +40,8 @@ echo '<br>';
   <form action="" method="POST">
   <div class="form-row">
     <div class="col-md-6 mb-3">
-      <label for="validationDefault01" class="lists">First name</label>
-      <input type="text" class="form-control" id="validationDefault01" name="fname" required>
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="validationDefault02" class="lists">Last name</label>
-      <input type="text" class="form-control" id="validationDefault02" name="lname" required>
+      <label for="validationDefault01" class="lists">Full name</label>
+      <input type="text" class="form-control" id="validationDefault01" name="fullname" required>
     </div>
   </div>
 
@@ -116,13 +111,13 @@ echo '<br>';
 </div>
 
     <br>
+    <h5>Note: Kindly check all the details carefully before submitting.</h5>
 <button type="submit" class="btn btn-danger">Submit</button></form>
 </form>
 <?php
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $fname=$_POST['fname'];
-    $lname=$_POST['lname'];
+    $fullname=$_POST['fullname'];
     $weight=$_POST['weight'];
     $height=$_POST['height'];
     $age=$_POST['age'];
@@ -140,12 +135,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     //&& $month!="" && $day!="" && $year!=""
     //echo 'hello';
     
-    $query="INSERT INTO organ_patient values('$fname','$lname','$weight','$height','$age','$phone',
+    $query="INSERT INTO organ_patient(fullname,weight,height,age,pno,bloodgrp,need_of_organ,gender,state,city,date) values('$fullname','$weight','$height','$age','$phone',
     '$bloodgrp','$need_of_organ','$genderSelect','$state','$city','$date')";
     $data=mysqli_query($conn,$query);
     if($data)
         {
-            echo 'data inserted <br>';
+            echo '<script>alert("Successfully registered!")</script>';
         }
     
     else

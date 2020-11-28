@@ -10,13 +10,13 @@ echo '<br>';
 <body>
 <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active" href="main.php">Home</a>
+    <a class="nav-link active" href="main.html">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="blood_info.php">In need of blood?</a>
+    <a class="nav-link" href="blood_info.html">In need of blood?</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="organ_info.php">In need of organs?</a>
+    <a class="nav-link" href="organ_info.html">In need of organs?</a>
   </li>
   <li class="nav-item">
   <div class="dropdown">
@@ -25,8 +25,8 @@ echo '<br>';
   </a>
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="b_donor.php">Blood Donor</a>
-    <a class="dropdown-item" href="o_donor.php">Organ Donor</a>
+    <a class="dropdown-item" href="b_donor.html">Blood Donor</a>
+    <a class="dropdown-item" href="o_donor.html">Organ Donor</a>
   
   </div>
 </div>
@@ -44,13 +44,10 @@ echo '<br>';
         <hr> 
         <div class="row">
             <div class="col-25">
-                <label for="email"><b>Name</b></label>
+                <label for="email"><b>Full Name</b></label>
             </div>
             <div class="col-25">
-                <input type="text" placeholder="First" name="fname" required>
-            </div>
-            <div class="col-25">
-                <input type="text" placeholder="Last" name="lname" required>
+                <input type="text" placeholder="Name" name="fullname" required>
             </div>
         </div>
         <div class="row">
@@ -177,8 +174,7 @@ echo '<br>';
     <?php
 //include("connection.php");
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-$fname=$_POST['fname'];
-$lname=$_POST['lname'];
+$fullname=$_POST['fullname'];
 $age=$_POST['age'];
 $weight=$_POST['weight'];
 $height=$_POST['height'];
@@ -197,12 +193,12 @@ $date=$_POST['date'];
 //&& $month!="" && $day!="" && $year!=""
 //echo 'hello';
 
-$query="INSERT INTO organ_donor values('$fname','$lname','$age','$weight','$height','$bloodgrp','$organdonate',
+$query="INSERT INTO organ_donor(fullname,age,weight,height,bloodgrp,organdonate,state,town,pincode,pno,gender,date) values('$fullname','$age','$weight','$height','$bloodgrp','$organdonate',
 '$state','$town','$pincode','$phone','$genderSelect','$date')";
 $data=mysqli_query($conn,$query);
 if($data)
     {
-        echo 'data inserted <br>';
+        echo '<script>alert("Successfully registered!")</script>';
     }
 
 else

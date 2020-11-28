@@ -6,8 +6,8 @@ $password='';
 $database='savelife';
 $conn=mysqli_connect($server,$username,$password,$database);
 
- if($conn)   {
-        echo 'Connection ok!';
+ if(!$conn)   {
+        echo 'Connection not ok!';
  }
 
 ?>
