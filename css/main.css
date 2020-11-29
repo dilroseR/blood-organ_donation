@@ -18,14 +18,13 @@ body{
    font-family:georgia;
   
 }
-.jumbotron{
-    background:url('images/help.jpg') top;
-    position:relative;
-    margin-top:20px;
-}
+
+
+
 .lead{
     line-height: 60%;
     font-family:'Courier New', Courier, monospace;
+    color:black;
 }
 .type{
     
@@ -61,3 +60,4 @@ right:30px;
     font-family:georgia;
     color:black;
 }
+

@@ -1,9 +1,6 @@
 body{
-    background-image: linear-gradient(to bottom right,#D9CEF5, #475666);
-    
+    background-color: rosybrown;
 }
-
-
 .form-control{
     height:35px;
     
@@ -24,7 +21,7 @@ body{
     
     
     .div2{
-    background-color:#79728C;
+
     position:relative;
     left:380px;
     width:600px;
