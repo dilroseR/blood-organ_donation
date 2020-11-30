@@ -1,6 +1,4 @@
-body{
-    background-color: rosybrown;
-}
+
 .form-control{
     height:35px;
     
@@ -21,7 +19,7 @@ body{
     
     
     .div2{
-
+   
     position:relative;
     left:380px;
     width:600px;

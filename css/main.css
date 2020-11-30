@@ -25,11 +25,13 @@ body{
     line-height: 60%;
     font-family:'Courier New', Courier, monospace;
     color:black;
+    font-size: 20px;
 }
 .type{
     
     font-family:'Times New Roman', Times, serif;
     line-height: 60%;
+    font-size: 20px;
 }
 
 .btn-danger{
@@ -61,3 +63,6 @@ right:30px;
     color:black;
 }
 
+.first{
+    font-size: 20px;
+}

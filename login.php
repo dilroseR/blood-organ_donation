@@ -2,8 +2,6 @@
 include ("connection.php");
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,23 +34,5 @@ include ("connection.php");
     </form>
 	 <br>
 	</div>
-
-    
-    
-
-
-
 </body>
 </html>
-
-<!--.div1{
-    background-color:#E6E3E3;
-    position:relative;
-    left:100x;
-    width:600px;
-    height:300px;
-    text-align:center;
-    padding-top:10px;
-     
-      #8D9BD9
-    } -->

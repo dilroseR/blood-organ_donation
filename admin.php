@@ -30,12 +30,41 @@ $query=( "SELECT uname, pword FROM users WHERE uname='$username' AND pword='$pas
 */
 ?>
 
+<?php
+$sql = "SELECT * FROM bd";
+$query = $conn->query($sql);
+$total=$query->num_rows;
+
+?>
+
+<?php
+$sql = "SELECT * FROM od";
+$query = $conn->query($sql);
+$t=$query->num_rows;
+
+?>
+
+<?php
+$sql = "SELECT * FROM bp";
+$query = $conn->query($sql);
+$tot=$query->num_rows;
+
+?>
+
+<?php
+$sql = "SELECT * FROM op";
+$query = $conn->query($sql);
+$t1=$query->num_rows;
+
+?>
+
 
 
 <html>
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="css/admin.css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script> 
 $(document).ready(function(){
@@ -44,6 +73,7 @@ $(document).ready(function(){
   });
 });
 </script>
+
 
 </head>
 <body>
@@ -149,7 +179,33 @@ $(document).ready(function(){
             </div>
  
 </div>
+
+
 <span style="font-size:20px;cursor:pointer;font-family:georgia;" onclick="openNav()">&#9776; Navigation Menu</span>
+
+<div  style="background-color:#BD6142; width:200px; height:100px; padding-top:8px; margin-top:30px;
+position:relative; left:450px; ">
+<h4 style="text-align:center; font-family:georgia;"> Blood Donors</h4>
+<p style="text-align:center; font-family:georgia;"><b><?php echo $total; ?></b></p>
+</div>
+
+<div  style="background-color:#BD6142; width:200px; height:100px; padding-top:8px; margin-top:30px;
+position:relative; left:450px;">
+<h4 style="text-align:center; font-family:georgia;"> Organ Donors</h4>
+<p style="text-align:center; font-family:georgia;"><b><?php echo $t; ?></b></p>
+</div>
+
+<div  style="background-color:#BD6142; width:200px; height:100px; padding-top:8px; margin-top:30px;
+position:relative; left:750px; bottom:129px;">
+<h4 style="text-align:center; font-family:georgia;"> Blood Patients</h4>
+<p style="text-align:center; font-family:georgia;"><b><?php echo $tot; ?></b></p>
+</div>
+
+<div  style="background-color:#BD6142; width:200px; height:100px; padding-top:8px; margin-top:30px;
+position:relative; left:750px; bottom:390px;">
+<h4 style="text-align:center; font-family:georgia;"> Organ Patients</h4>
+<p style="text-align:center; font-family:georgia;"><b><?php echo $t1; ?></b></p>
+</div>
 
 <script>
 function openNav() {
@@ -162,6 +218,7 @@ function closeNav() {
 </script>
    
 
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
@@ -171,7 +228,3 @@ function closeNav() {
 </body>
 </html>
 
-<!-- <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a> -->
