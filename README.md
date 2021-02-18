@@ -2,7 +2,7 @@ Blood-Organ donation is one of the most significant contributions that a person 
 Blood-Organ Donation website manages blood and organ donation across India. 
 This site aims to build a possible connection between organ donors and transplant patients.
 This website is a combination of front-end and back-end fundamentals made for a noble and great cause.
-The front-end is designed with the help of Bootstrap, HTML, CSS while the back-end is biult using MySQL and PHP.
+The front-end is designed with the help of Bootstrap, HTML, CSS while the back-end is built using MySQL and PHP.
 This project contains the user and the admin side.
 The user and the donor can register through the registration forms available on the website, both the registrations for the donors and the patients are absolutely free.
 The admin's role is to connect the potential donor to its user.
